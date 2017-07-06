@@ -28,4 +28,11 @@
  */
 - (void)didStartTouchesInRangeSlider:(TTRangeSlider *)sender;
 
+/**
+ * Called when the user update the values of the RangeSlider
+ */
+-(NSString *)setMinLblValueInRangeSlider:(TTRangeSlider *)sender;
+
+-(NSString *)setMaxLblValueInRangeSlider:(TTRangeSlider *)sender;
+
 @end
